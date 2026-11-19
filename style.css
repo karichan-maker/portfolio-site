@@ -1,0 +1,191 @@
+/*------------ header ------------ */
+body {
+    background-color: rgb(243, 221, 193);
+    margin:2px;
+    padding: 2px;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(160, 144, 123);
+    margin: 4px;
+    padding: 15px;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0px;
+
+}
+
+.navbar {
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img {
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#intro {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: chartreuse;
+}
+
+/* section for the personal information and with photo------- */
+
+.personal-img {
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    width: 100%;
+    height: 20%;
+
+
+}
+
+.personal {
+    width: 50%;
+    height: 50%;
+}
+
+#img0 {
+    /* height: 200px; */
+    width: 150px;
+    object-fit: contain;
+
+}
+
+#img0 img{
+    height: 260px;
+    width: 193px;
+    border-radius: 103px;
+    margin: 3px;
+    padding: 0px;
+    /* margin-top: 10px; */
+}
+
+/*  Edademic class------------- */
+
+.personal-img1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    width: 100%;
+    height: 20%;
+
+
+}
+
+.personal1 {
+    width: 50%;
+    height: 50%;
+}
+
+#img1 {
+    /* height: 200px; */
+    width: 150px;
+    object-fit: contain;
+
+}
+
+#img1 img {
+    height: 250px;
+    width: 193px;
+    border-radius: 103px;
+    margin: 3px;
+    padding: 0px;
+    /* margin-top: 30px; */
+}
+
+/* ---- traning and skill   */
+
+.personal-img2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    width: 100%;
+    height: 20%;
+
+
+}
+
+.personal2 {
+    width: 50%;
+    height: 50%;
+}
+
+#img2 {
+    /* height: 200px; */
+    width: 150px;
+    object-fit: contain;
+
+}
+
+#img2 img {
+    height: 250px;
+    width: 193px;
+    border-radius: 103px;
+    margin: 3px;
+    padding: 0px;
+    /* margin-top: 40px; */
+}
+/* foter ------------ */
+.foter{
+    background-color: rgb(110, 110, 110);
+    height:40px;
+    width:100%;
+    border-radius: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+@media (max-width : 550px){
+    .personal-img{
+        flex-direction: column;
+        
+    
+    }
+    /* .detail1{
+    height:none;
+} */
+  .personal-img1{
+    flex-direction: column;
+
+  }
+  /* .detail2{
+    height:none;
+} */
+  .personal-img2{
+    flex-direction: column;
+  }
+  #img0 img{
+    position: relative;
+    left:50px;
+  }
+  #img1 img{
+    position: relative;
+    left:50px;
+  }  #img2 img{
+    position: relative;
+    left:50px;
+  }
+}
+
